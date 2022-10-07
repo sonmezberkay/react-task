@@ -21,9 +21,24 @@ function App() {
       <Route path='/'>
         <Homepage />
       </Route>
-      <Redirect path='*'>
+      <Route path='/about'>
         <Homepage />
-      </Redirect>
+      </Route>
+      <Route path='/resources'>
+        <Homepage />
+      </Route>
+      <Route path='/network'>
+        <Homepage />
+      </Route>
+      <Route path='/cloud'>
+        <Homepage />
+      </Route>
+      <Route path='/download'>
+        <Homepage />
+      </Route>
+      <Route path='/contact'>
+        <Homepage />
+      </Route>
       <Footer />
     </div>
   );
