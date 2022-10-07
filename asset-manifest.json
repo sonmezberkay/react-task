@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-task/static/css/main.4fe92785.css",
+    "main.css": "/react-task/static/css/main.844ebd11.css",
     "main.js": "/react-task/static/js/main.8d0ca8c2.js",
     "static/media/android.svg": "/react-task/static/media/android.d138495f2cbe11438302b285aaf24f8e.svg",
     "static/media/circle.svg": "/react-task/static/media/circle.843d5487d0c5c616a6b6e76e52c1e138.svg",
@@ -16,11 +16,11 @@
     "static/media/facebook.svg": "/react-task/static/media/facebook.9bcbaf49f0b5fbcd6a30253d9b6c4837.svg",
     "static/media/plus.svg": "/react-task/static/media/plus.b6902584722260c8060b6d1394349540.svg",
     "static/media/minus.svg": "/react-task/static/media/minus.7235303caf2dee1e0cd4109deb466024.svg",
-    "main.4fe92785.css.map": "/react-task/static/css/main.4fe92785.css.map",
+    "main.844ebd11.css.map": "/react-task/static/css/main.844ebd11.css.map",
     "main.8d0ca8c2.js.map": "/react-task/static/js/main.8d0ca8c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fe92785.css",
+    "static/css/main.844ebd11.css",
     "static/js/main.8d0ca8c2.js"
   ]
 }
