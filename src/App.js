@@ -18,7 +18,7 @@ function App() {
         <meta name="keywords" content="Newspaper, Networking, Software" />
       </Helmet>
       <Header />
-      <Route path='/'>
+      <Route path='*'>
         <Homepage />
       </Route>
       <Footer />
