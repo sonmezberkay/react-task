@@ -1,20 +1,14 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Sections from "./components/Sections";
 import { Route } from "react-router-dom";
 
 import { Helmet } from 'react-helmet';
-import Modal from "./components/Modal";
 
-import { useContext } from 'react';
-import ModalContext from "./context/modal-context";
-import Backdrop from "./components/Backdrop";
+import Homepage from "./pages/Homepage";
 
 
 function App() {
 
-  const modalCtx = useContext(ModalContext);
-  console.log(modalCtx.modalIsOn)
 
   return (
     <div>
@@ -25,9 +19,7 @@ function App() {
       </Helmet>
       <Header />
       <Route path='/'>
-        {modalCtx.modalIsOn && <Modal />}
-        {modalCtx.modalIsOn && <Backdrop />}
-        <Sections />
+        <Homepage />
       </Route>
       <Footer />
     </div>
