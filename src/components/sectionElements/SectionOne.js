@@ -12,7 +12,7 @@ const SectionOne = ({ image }) => {
                 <div className={classes['left-box__text']}>
                     <p>Nam at lectus urna duis convallis. Id semper risus in hendrerit gravida rutrum quisque non tellus. Elit eget gravida cum sociis natoque. Ultrices neque ornare aenean euismod elementum nisi quis eleifend. Arcu felis bibendum ut tristique et egestas. </p>
                 </div>
-                <Link className={classes.discover} to='/discover'>Discover Now</Link>
+                <Link className={classes.discover} to='/'>Discover Now</Link>
             </div>
             <div className={classes['right-box']}>
                 <img src={image} alt='section-one'/>

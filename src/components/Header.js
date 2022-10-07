@@ -25,13 +25,13 @@ const Header = () => {
         <header className={classes.header}>
             <nav className={classes['header-nav']}>
                 <ul className={classes['header-nav__list']}>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/react-task/'>Overview</NavLink> </li>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/about'>About</NavLink> </li>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/resources'>Resources</NavLink> </li>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/network'>Network</NavLink> </li>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/cloud'>Cloud</NavLink> </li>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/download'>Download</NavLink> </li>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/contact'>Contact</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Overview</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>About</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Resources</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Network</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Cloud</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Download</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Contact</NavLink> </li>
                 </ul>
                 <div onClick={modalOnHandler} className={classes['contactus-btn']}><Link to='/'>Contact Us</Link></div>
             </nav>
