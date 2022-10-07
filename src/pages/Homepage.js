@@ -1,9 +1,9 @@
 import Sections from "../components/Sections";
-import Modal from "./components/Modal";
+import Modal from "../components/Modal";
 
 import { Fragment, useContext } from 'react';
-import ModalContext from "./context/modal-context";
-import Backdrop from "./components/Backdrop";
+import ModalContext from "../context/modal-context";
+import Backdrop from "../components/Backdrop";
 
 
 
