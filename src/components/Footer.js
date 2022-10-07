@@ -5,6 +5,7 @@ import twitter from '../svg/twitter.svg';
 import linkedin from '../svg/linkedIn.svg';
 import m from '../svg/m.svg';
 import github from '../svg/github.svg';
+import { NavLink } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 const Footer = () => {
@@ -42,8 +43,8 @@ const Footer = () => {
             <hr className={styles.line} />
             <div className={styles['lower-footer']}>
                 <p>© 2003 - 2022 Carrot cake sweet pie Sp. z o.o. All rights reserved.</p>
-                <a href='/'>Legal</a>
-                <a href='/'>Privacy Policy</a>
+                <NavLink to='/'>Legal</NavLink>
+                <NavLink to='/'>Privacy Policy</NavLink>
                 <p>Proud to be Open Source</p>
             </div>
         </section>
