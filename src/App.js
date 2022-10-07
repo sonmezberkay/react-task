@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { Route } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom";
 
 import { Helmet } from 'react-helmet';
 
@@ -21,6 +21,9 @@ function App() {
       <Route path='/'>
         <Homepage />
       </Route>
+      <Redirect path='*'>
+        <Homepage />
+      </Redirect>
       <Footer />
     </div>
   );
