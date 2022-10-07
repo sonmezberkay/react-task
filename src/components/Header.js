@@ -35,7 +35,7 @@ const Header = () => {
                 </ul>
                 <div onClick={modalOnHandler} className={classes['contactus-btn']}><Link to='/'>Contact Us</Link></div>
             </nav>
-            <div className={classes.logo}><Link to='/react-task/'>{logoSvg}</Link></div>
+            <div className={classes.logo}><Link to='/'>{logoSvg}</Link></div>
         </header>
     );
 };
