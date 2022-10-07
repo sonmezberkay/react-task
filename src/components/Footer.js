@@ -31,11 +31,11 @@ const Footer = () => {
                         </div>
                         <div className={styles['right-footer']}>
                             <div className={styles.logos}>
-                                <img src={twitter} alt='logo' />
-                                <img src={facebook} alt='logo' />
-                                <img src={linkedin} alt='logo' />
+                                <a href='https://twitter.com/home' target="_blank"><img src={twitter} alt='logo' /></a>
+                                <a href='https://www.facebook.com/' target="_blank"><img src={facebook} alt='logo' /></a>
+                                <a href='https://www.linkedin.com/in/berkay-s%C3%B6nmez/' target="_blank"><img src={linkedin} alt='logo' /></a>
                                 <img src={m} alt='logo' />
-                                <img src={github} alt='logo' />
+                                <a href='https://github.com/sonmezberkay' target="_blank"><img src={github} alt='logo' /></a>
                             </div>
                         </div>
                 </div>
