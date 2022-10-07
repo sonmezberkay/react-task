@@ -8,7 +8,7 @@ import { ModalContextProvider } from './context/modal-context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/react-task" >
         <ModalContextProvider>
             <App />
         </ModalContextProvider>
