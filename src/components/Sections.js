@@ -10,13 +10,13 @@ import scissors from '../svg/scissors.svg';
 import checkBall from '../svg/checkBall.svg';
 import SubscribeSection from './sectionElements/SubscribeSection';
 
-import sectionOneAsset from '../svg/photo.svg';
-import invision from '../svg/logo.svg';
+// import sectionOneAsset from '../svg/photo.svg';
+// import invision from '../svg/logo.svg';
 
 const Sections = () => {
 
-    // const sectionOneAsset = '/assets/section-1__asset.png';
-    // const invision = '../svg/logo.svg';
+    const sectionOneAsset = '../svg/photo.png';
+    const invision = '../svg/invision.png';
 
     console.log(sectionOneAsset);
 
