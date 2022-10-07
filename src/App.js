@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Sections from "./components/Sections";
+import { Route } from "react-router-dom";
 
 import { Helmet } from 'react-helmet';
 import Modal from "./components/Modal";
@@ -23,9 +24,11 @@ function App() {
         <meta name="keywords" content="Newspaper, Networking, Software" />
       </Helmet>
       <Header />
-      {modalCtx.modalIsOn && <Modal />}
-      {modalCtx.modalIsOn && <Backdrop />}
-      <Sections />
+      <Route path='/'>
+        {modalCtx.modalIsOn && <Modal />}
+        {modalCtx.modalIsOn && <Backdrop />}
+        <Sections />
+      </Route>
       <Footer />
     </div>
   );

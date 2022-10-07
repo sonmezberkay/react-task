@@ -25,7 +25,7 @@ const Header = () => {
         <header className={classes.header}>
             <nav className={classes['header-nav']}>
                 <ul className={classes['header-nav__list']}>
-                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/'>Overview</NavLink> </li>
+                    <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/react-task/'>Overview</NavLink> </li>
                     <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/about'>About</NavLink> </li>
                     <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/resources'>Resources</NavLink> </li>
                     <li className={classes['header-nav__list-item']}> <NavLink activeClassName={classes.active} to='/network'>Network</NavLink> </li>
