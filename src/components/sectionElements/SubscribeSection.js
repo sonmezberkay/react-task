@@ -4,7 +4,7 @@ import classes from './SubscribeSection.module.css';
 
 const SubscribeSection = () => {
 
-    const [inputValue, setInputValue] = useState('');
+    const [inputValue, setInputValue] = useState();
 
     const submitHandler = () => {
         setInputValue('');
