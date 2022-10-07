@@ -15,7 +15,7 @@ const SectionOne = ({ image }) => {
                 <Link className={classes.discover} to='/discover'>Discover Now</Link>
             </div>
             <div className={classes['right-box']}>
-                <img src={image} alt='section-one'/>
+                <img src='/assets/sectionOneAsset.PNG' alt='section-one'/>
             </div>
         </section>
     );

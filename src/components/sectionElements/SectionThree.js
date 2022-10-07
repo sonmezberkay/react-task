@@ -2,7 +2,7 @@ import classes from './SectionThree.module.css';
 import UpperQuote from '../../svg/upperQuote.svg';
 import LowerQuote from '../../svg/lowerQuote.svg';
 
-const SectionThree = ({ upperQuoteSvg, lowerQuoteSvg, logo }) => {
+const SectionThree = ({ logo }) => {
 
     return (
         <section className={classes['section-three']}>

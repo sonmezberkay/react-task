@@ -10,10 +10,15 @@ import scissors from '../svg/scissors.svg';
 import checkBall from '../svg/checkBall.svg';
 import SubscribeSection from './sectionElements/SubscribeSection';
 
+import sectionOneAsset from '../svg/photo.svg';
+import invision from '../svg/logo.svg';
+
 const Sections = () => {
 
-    const sectionOneAsset = '/assests/section-1__asset.png';
-    const invision = '/assests/invision.png';
+    // const sectionOneAsset = '/assets/section-1__asset.png';
+    // const invision = '../svg/logo.svg';
+
+    console.log(sectionOneAsset);
 
     return (
         <Fragment>
