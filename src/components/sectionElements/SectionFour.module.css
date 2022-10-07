@@ -1,0 +1,36 @@
+.section-four {
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+    color: #2B2D26;
+    margin-bottom: 1.2rem;
+}
+
+.mid {
+    max-width: 82%;
+    color: #2B2D26;
+}
+
+.mid span {
+    font-weight: bold;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.bottom a {
+    cursor: pointer;
+}
+
+.bottom a:hover {
+    filter: brightness(.8);
+}

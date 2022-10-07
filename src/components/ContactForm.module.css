@@ -1,0 +1,47 @@
+.form {
+    background-color: #02CC67;
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.form .email {
+    margin-bottom: 2rem;
+}
+
+.email input {
+    outline: none;
+    width: 15rem;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    border: none;
+}
+
+textarea {
+    outline: none;
+    width: 30rem;
+    height: 8rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+.form button {
+    padding: .5rem 2rem;
+    border: 2px solid white;
+    background-color: #02CC67;
+    border-radius: 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0A8A4A;
+}
+
+.form button:active {
+    transform: scale(.98);
+}

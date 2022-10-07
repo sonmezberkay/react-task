@@ -1,0 +1,18 @@
+<svg width="238" height="192" viewBox="0 0 238 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1_149)">
+<rect x="8.05896" y="6" width="221.686" height="175.583" rx="4" fill="white"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M122.904 104.321L122.886 104.339L118.523 99.9762L120.45 98.0494L122.904 100.503L127.43 95.9953L129.357 97.9221L122.922 104.357L122.904 104.321ZM119.177 76C109.18 76 101 84.1799 101 94.1775C101 104.175 109.18 112.355 119.177 112.355C129.175 112.355 137.355 104.175 137.355 94.1775C137.355 84.1799 129.175 76 119.177 76ZM110.707 83.78L113.27 86.343L115.833 83.78L117.76 85.7068L115.197 88.2698L117.76 90.8329L115.833 92.7597L113.27 90.1967L110.707 92.7597L108.78 90.8329L111.343 88.2698L108.78 85.7068L110.707 83.78ZM119.177 108.72C115.178 108.72 111.543 107.084 108.816 104.539L129.539 83.8163C132.083 86.543 133.719 90.1785 133.719 94.1775C133.719 102.176 127.176 108.72 119.177 108.72Z" fill="#A9ACAC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M207.238 151.809L202.945 147.516C202.555 147.126 202.555 146.492 202.945 146.102C203.336 145.711 203.969 145.711 204.359 146.102L209.359 151.102C209.75 151.492 209.75 152.126 209.359 152.516L204.359 157.516C203.969 157.907 203.336 157.907 202.945 157.516C202.555 157.126 202.555 156.492 202.945 156.102L207.238 151.809Z" fill="#29CC6A"/>
+<defs>
+<filter id="filter0_d_1_149" x="0.05896" y="0" width="237.686" height="191.583" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.160784 0 0 0 0 0.215686 0 0 0 0 0.270588 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_149"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_149" result="shape"/>
+</filter>
+</defs>
+</svg>

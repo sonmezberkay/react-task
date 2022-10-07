@@ -1,0 +1,76 @@
+.section-one {
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-box {
+    width: 32rem;
+    height: 80%;
+}
+
+.left-box .left-box__header{
+    width: 30rem;
+}
+
+.left-box h1 {
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left-box h1 span {
+    color: #02CC67;
+}
+
+.left-box .left-box__text {
+    margin-bottom: 2rem;
+    width: 22rem;
+}
+
+.left-box p {
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.left-box a.discover {
+    background-color: #02CC67;
+    padding: .5rem 2.5rem;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.left-box a.discover:hover {
+    background-color: #0a8a4a;
+}
+
+.left-box a.discover:active {
+    transform: scale(.98);
+}
+
+
+
+.right-box {
+    width: 50rem;
+    height: 32rem;
+}
+
+.right-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 1500px) {
+    .section-one {
+        width: 90%;
+        margin: auto;
+        height: 32rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
