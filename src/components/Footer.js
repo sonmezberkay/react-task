@@ -42,8 +42,8 @@ const Footer = () => {
             <hr className={styles.line} />
             <div className={styles['lower-footer']}>
                 <p>© 2003 - 2022 Carrot cake sweet pie Sp. z o.o. All rights reserved.</p>
-                <a href='/legal'>Legal</a>
-                <a href='/privacy'>Privacy Policy</a>
+                <a href='/'>Legal</a>
+                <a href='/'>Privacy Policy</a>
                 <p>Proud to be Open Source</p>
             </div>
         </section>
