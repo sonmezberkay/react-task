@@ -15,8 +15,8 @@ import SubscribeSection from './sectionElements/SubscribeSection';
 
 const Sections = () => {
 
-    const sectionOneAsset = '../svg/photo.png';
-    const invision = '../svg/invision.png';
+    const sectionOneAsset = 'assets/photo.png';
+    const invision = 'assets/invision.png';
 
     console.log(sectionOneAsset);
 
