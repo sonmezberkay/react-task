@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-task/static/css/main.db02f111.css",
+    "main.js": "/react-task/static/js/main.207ba550.js",
+    "static/media/android.svg": "/react-task/static/media/android.d138495f2cbe11438302b285aaf24f8e.svg",
+    "static/media/circle.svg": "/react-task/static/media/circle.843d5487d0c5c616a6b6e76e52c1e138.svg",
+    "static/media/scissors.svg": "/react-task/static/media/scissors.3ea9f1e53a3c2f7dba6a26acd53fc27d.svg",
+    "static/media/checkBall.svg": "/react-task/static/media/checkBall.249fee58fcffd4822e511d2b5d3a7ce8.svg",
+    "static/media/lowerQuote.svg": "/react-task/static/media/lowerQuote.179f8011b803e2a44c58f1d940035f6c.svg",
+    "static/media/upperQuote.svg": "/react-task/static/media/upperQuote.85421d502cc158feb7f42b27585fe292.svg",
+    "static/media/m.svg": "/react-task/static/media/m.30156c3031b86042cbc779641f659af2.svg",
+    "static/media/github.svg": "/react-task/static/media/github.83ce81f56d79f3bb3b64dc94aaa9d1b0.svg",
+    "static/media/twitter.svg": "/react-task/static/media/twitter.8711c8b271aec9e266c5f62a63f6bbb4.svg",
+    "static/media/linkedIn.svg": "/react-task/static/media/linkedIn.7d60050bf5e98b8af6c9688df060e5ce.svg",
+    "index.html": "/react-task/index.html",
+    "static/media/facebook.svg": "/react-task/static/media/facebook.9bcbaf49f0b5fbcd6a30253d9b6c4837.svg",
+    "static/media/plus.svg": "/react-task/static/media/plus.b6902584722260c8060b6d1394349540.svg",
+    "static/media/minus.svg": "/react-task/static/media/minus.7235303caf2dee1e0cd4109deb466024.svg",
+    "main.db02f111.css.map": "/react-task/static/css/main.db02f111.css.map",
+    "main.207ba550.js.map": "/react-task/static/js/main.207ba550.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db02f111.css",
+    "static/js/main.207ba550.js"
+  ]
+}
