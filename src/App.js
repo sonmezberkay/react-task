@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { Route, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 import { Helmet } from 'react-helmet';
 
